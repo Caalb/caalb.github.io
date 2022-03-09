@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Smooch+Sans:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, black, #393E46, white);
+    background-size: 200% 200%;
+    animation: colors 10s ease infinite;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    width: 1855px;
+    
+}
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.conteudo {
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid white;
+    padding: 2rem 4rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+}
+
+a:hoover { 
+    cursor: grab;
+}
