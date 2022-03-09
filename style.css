@@ -16,8 +16,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 850px;
-    width: 1862px;
+    margin: auto;
+    height: 93vh;
+    
     
 }
 @keyframes colors {
@@ -41,16 +42,28 @@ body {
     font-weight: 700;
     color: white;
     border: 1px solid white;
-    padding: 2rem 4rem;
+    padding: 1.2rem 3rem;
+    width: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: row;
 }
 
-a:hoover { 
+img:hoover { 
     cursor: none;
+    height: 50px;
+    width: 50px;
+}
+
+.homepage {
+    height: 90vh;
 }
